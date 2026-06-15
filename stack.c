@@ -2,11 +2,12 @@
 
     >> Encode your group number (2 digits) and last names, first names and sections of group members.  Encode the purpose of this file.
 
-    Group #: 00  (2 digits)
+    Group #: 04  (2 digits)
 
-    LASTNAME1, FIRSTNAME1  SECTION
-    LASTNAME2, FIRSTNAME2  SECTION
-    LASTNAME3, FIRSTNAME3  SECTION 
+    CHENG, DERK SIMONE 
+    CORTEZ, PAUL HAVEN C. S09
+    SORILLA, JOSHUA DEL F. 
+    
 
     PURPOSE OF THIS FILE: to show an example of a C source file that follows the coding guidelines/instructions.
 
@@ -44,16 +45,114 @@
 
 
 /*
-    a. Name of Programmer(s):  Juan de la Cruz, Anna Santos
-    b. Name of Tester(s)    :  Ichiro Makino
+    1. CREATE
+    a. Name of Programmer(s):  Cortez, Paul Haven C.
+    b. Name of Tester(s)    :  -
     c. Code Type -- 100% Human Generated 
-    d. Purpose: this function will ....
-    e. Return: None
-    f. Parameters: x is the ...    
+    d. Purpose: Creates an empty stack
+    e. Return: void
+    f. Parameters: pointer to a stack struct variable
 */
-void Sample(int x)
+void CREATE(Stack *S)
 {
-    // document also the body of the function
-    printf("Hello %d.\n", x);
+   S->count = 0;
+}
+
+/*  
+    2. PUSH
+    a. Name of Programmer(s):  Cortez, Paul Haven C.
+    b. Name of Tester(s)    :  -
+    c. Code Type -- 100% Human Generated 
+    d. Purpose: Checks if the stack is not full and pushes/inserts a point to the stack and updates the count of the stack.
+    e. Return: void
+    f. Parameters: pointer to a stack struct variable, point to be pushed/inserted
+*/
+
+void PUSH(Stack *S, Point elem)
+{
+   if (S->count < MAX_SIZE) {
+      S->points[S->count] = elem;
+      S->count++;
+   } else {
+      printf("Error: Can't push to a full stack\n");
+   }
+}
+
+/*
+    3. POP
+    a. Name of Programmer(s):  Cortez, Paul Haven C.
+    b. Name of Tester(s)    :  -
+    c. Code Type -- 100% Human Generated 
+    d. Purpose: Checks if the stack is not empty and pops/deletes the top point from the stack and updates the count of the stack.  
+    e. Return: elem the top in the stack
+    f. Parameters: pointer to a stack struct variable
+*/
+Point POP(Stack *S)
+{
+   if (S->count > 0) {
+      S->count--;
+      return S->points[S->count];
+   } else {
+      printf("Error: Can't pop an empty stack\n");
+   }
+}
+
+
+
+/*
+    4. TOP
+    a. Name of Programmer(s):  Cortez, Paul Haven C.
+    b. Name of Tester(s)    :  -
+    c. Code Type -- 100% Human Generated 
+    d. Purpose: Gets the top element from the stack and returns it
+    e. Return: elem (the top in the stack)
+    f. Parameters: pointer to a stack struct variable, pointer to a point variable where the popped/deleted point will be stored
+*/
+Point TOP(Stack *S, Point *elem)
+{
+   if (S->count > 0) {
+      *elem = S->points[S->count - 1];
+   } else {
+      printf("Error: Can't access top of an empty stack\n");
+   }
+
+   return *elem;
+}
+
+
+/*
+    5. ISFULL
+    a. Name of Programmer(s):  Cortez, Paul Haven C.
+    b. Name of Tester(s)    :  -
+    c. Code Type -- 100% Human Generated 
+    d. Purpose: Checks if the stack is full
+    e. Return: int (1 if full, 0 otherwise)
+    f. Parameters: pointer to a stack struct variable
+*/
+int ISFULL(Stack *S)
+{
+   if (S->count >= MAX_SIZE) {
+      return 1;
+   } else {
+      return 0;
+   }
+}
+
+/*
+    5. ISEMPTY
+    a. Name of Programmer(s):  Cortez, Paul Haven C.
+    b. Name of Tester(s)    :  -
+    c. Code Type -- 100% Human Generated 
+    d. Purpose: Checks if the stack is empty
+    e. Return: int (1 if empty, 0 otherwise)
+    f. Parameters: pointer to a stack struct variable
+*/
+int ISEMPTY(Stack *S)
+{
+   if (S->count == 0) {
+      return 1;
+   } else {
+      return 0;
+   }
 }
 

@@ -23,12 +23,7 @@
 
 int main()
 {
-   // test the stack operations by calling the stack function.
-
-   int x = 123; // document the purpose of the local variable(s)
-
-   Sample(x);  // replace this line of code with your own set of codes
-
+   
    return 0;
 }
 

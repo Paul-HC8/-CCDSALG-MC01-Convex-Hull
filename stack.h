@@ -4,9 +4,9 @@
 
     Group #: 00 (2 digits)
 
-    LASTNAME1, FIRSTNAME1  SECTION
-    LASTNAME2, FIRSTNAME2  SECTION
-    LASTNAME3, FIRSTNAME3  SECTION 
+    CHENG, DERK SIMONE 
+    CORTEZ, PAUL HAVEN C. S09
+    SORILLA, JOSHUA DEL F.  
 
     PURPOSE OF THIS FILE: to show an example of a C header file that follows the coding guidelines/instructions.
 
@@ -35,4 +35,19 @@
 
 // example FUNCTION PROTOTYPE -- remove this and the next line in your own codes
 void Sample(int x);
-  
+
+// 2 Max size of stack of elements 
+#define MAX_SIZE 32768
+
+// 1. Struct for the x and y coordinates of a point
+typedef struct Point {
+    double x;  
+    double y;  
+} Point;
+
+typedef struct Stack {
+    Point points[MAX_SIZE]; // Location of all the points in the stack
+    int count;             // index of the top element in the stack
+} Stack;
+
+
