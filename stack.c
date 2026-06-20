@@ -94,6 +94,7 @@ Point POP(Stack *S)
       return S->points[S->count];
    } else {
       printf("Error: Can't pop an empty stack\n");
+      exit(1);
    }
 }
 
@@ -108,17 +109,15 @@ Point POP(Stack *S)
     e. Return: elem (the top in the stack)
     f. Parameters: pointer to a stack struct variable, pointer to a point variable where the popped/deleted point will be stored
 */
-Point TOP(Stack *S, Point *elem)
+Point TOP(Stack *S)
 {
    if (S->count > 0) {
-      *elem = S->points[S->count - 1];
+      return S->points[S->count - 1];
    } else {
       printf("Error: Can't access top of an empty stack\n");
+      exit(1);
    }
-
-   return *elem;
 }
-
 
 /*
     5. ISFULL
@@ -153,6 +152,25 @@ int ISEMPTY(Stack *S)
       return 1;
    } else {
       return 0;
+   }
+}
+
+/*
+    7. NEXT_TO_TOP
+    a. Name of Programmer(s):
+    b. Name of Tester(s)    :
+    c. Code Type -- 100% Human Generated 
+    d. Purpose: Gets the element immediately below the top element of the stack.
+    e. Return: elem (the second-to-top point in the stack)
+    f. Parameters: pointer to a stack struct variable
+*/
+Point NEXT_TO_TOP(Stack *S)
+{
+   if (S->count >= 2) {
+      return S->points[S->count - 2];
+   } else {
+      printf("Error: Stack needs at least 2 elements for NEXT_TO_TOP\n");
+      exit(1);
    }
 }
 

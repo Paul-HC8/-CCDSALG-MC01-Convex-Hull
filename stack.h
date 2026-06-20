@@ -2,11 +2,11 @@
 
     >> Encode your group number (2 digits) and last names, first names and sections of group members.  Encode the purpose of this file.
 
-    Group #: 00 (2 digits)
+    Group #: 04 (2 digits)
 
     CHENG, DERK SIMONE 
     CORTEZ, PAUL HAVEN C. S09
-    SORILLA, JOSHUA DEL F.  
+    SORILLA, JOSHUA DEL F.
 
     PURPOSE OF THIS FILE: to show an example of a C header file that follows the coding guidelines/instructions.
 
@@ -50,4 +50,12 @@ typedef struct Stack {
     int count;             // index of the top element in the stack
 } Stack;
 
+// Function Prototypes
+void CREATE(Stack *S);
+void PUSH(Stack *S, Point elem);
+Point POP(Stack *S);
+Point TOP(Stack *S);
+int ISFULL(Stack *S);
+int ISEMPTY(Stack *S);
+Point NEXT_TO_TOP(Stack *S);
 
