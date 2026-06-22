@@ -3,7 +3,7 @@
 
     CHENG, DERK SIMONE C.        S04
     CORTEZ, PAUL HAVEN C.        S09
-    SORILLA, JOSHUA DEL F.       S__
+    SORILLA, JOSHUA DEL F.       S09
 
     GENERAL INSTRUCTIONS observed: no global variables, no goto, no return in a void function.
 */
@@ -177,4 +177,3 @@ void quickSort(Point *arr, int low, int high, Point anchor)
         quickSort(arr, split + 1, high, anchor);
     }
 }
-*/ 

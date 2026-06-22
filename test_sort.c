@@ -5,7 +5,7 @@
 
     CHENG, DERK SIMONE C. S04
     CORTEZ, PAUL HAVEN C. S09
-    SORILLA, JOSHUA DEL F.
+    SORILLA, JOSHUA DEL F. SO9
 
     PURPOSE OF THIS FILE: to show an example of a test driver program.
 
