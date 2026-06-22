@@ -1,3 +1,6 @@
+#ifndef STACK_H
+#define STACK_H
+
 /*
 
     >> Encode your group number (2 digits) and last names, first names and sections of group members.  Encode the purpose of this file.
@@ -55,3 +58,5 @@ int ISFULL(Stack *S);
 int ISEMPTY(Stack *S);
 Point NEXT_TO_TOP(Stack *S);
 
+
+#endif
