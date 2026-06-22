@@ -1,9 +1,9 @@
 /*
     Group #: 04
 
-    CHENG, DERK SIMONE C.        S04
-    CORTEZ, PAUL HAVEN C.        S09
-    SORILLA, JOSHUA DEL F.       S09
+    CHENG, DERK SIMONE C.  S04
+    CORTEZ, PAUL HAVEN C.  S09
+    SORILLA, JOSHUA DEL F. S09
 
     PURPOSE OF THIS FILE: the FAST version of Graham's Scan. It computes the convex
     hull of a set of 2D points, using Quick sort for the polar-angle sorting step.
