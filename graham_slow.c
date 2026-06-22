@@ -21,7 +21,7 @@
 
 /*
     a. Programmer(s): CORTEZ, PAUL HAVEN C.
-    b. Tester(s)    : 
+    b. Tester(s)    : CHENG, DERK SIMONE C.
     c. Code Type    : AI-generated draft
     d. Purpose      : compute the convex hull of pts[0..n-1] with Graham's Scan, using
                       the SLOW (Bubble) sort. Steps: pick the anchor (lowest y, then
