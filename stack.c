@@ -6,7 +6,7 @@
 
     CHENG, DERK SIMONE C. S04
     CORTEZ, PAUL HAVEN C. S09
-    SORILLA, JOSHUA DEL F. S09
+    SORILLA, JOSHUA D.    S09
     
 
     PURPOSE OF THIS FILE: to show an example of a C source file that follows the coding guidelines/instructions.
@@ -157,7 +157,7 @@ int ISEMPTY(Stack *S)
 
 /*
     7. NEXT_TO_TOP
-    a. Name of Programmer(s):
+    a. Name of Programmer(s): Sorilla, Joshua D.
     b. Name of Tester(s)    :
     c. Code Type -- 100% Human Generated 
     d. Purpose: Gets the element immediately below the top element of the stack.

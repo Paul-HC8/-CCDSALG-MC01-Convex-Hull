@@ -1,9 +1,9 @@
 /*
     Group #: 04
 
-    CHENG, DERK SIMONE C.        S04
-    CORTEZ, PAUL HAVEN C.        S09
-    SORILLA, JOSHUA DEL F.       S09
+    CHENG, DERK SIMONE C. S04
+    CORTEZ, PAUL HAVEN C. S09
+    SORILLA, JOSHUA D.    S09
 
     PURPOSE OF THIS FILE: header file for the sorting module. Group 4 is assigned
     Bubble sort (the "slow" quadratic algorithm) and Quick sort (the "fast"
