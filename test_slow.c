@@ -23,8 +23,8 @@
 
     int main(void)
     {
-        static Point pts[MAX_POINTS];   // input points (static keeps the 0.5 MB off the call stack)
-        static Point hull[MAX_POINTS];  // resulting hull points
+        static Point pts[MAX_SIZE];   // input points (static keeps the 0.5 MB off the call stack)
+        static Point hull[MAX_SIZE];  // resulting hull points
         char  inName[256];              // input filename
         char  outName[256];             // output filename
         FILE *fin;                      // input file pointer

@@ -32,10 +32,6 @@
 #include <stdlib.h>
 
 // you may include other header files
-
-// example FUNCTION PROTOTYPE -- remove this and the next line in your own codes
-void Sample(int x);
-
 // 2 Max size of stack of elements 
 #define MAX_SIZE 32768
 
