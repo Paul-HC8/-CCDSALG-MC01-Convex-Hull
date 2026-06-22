@@ -7,8 +7,8 @@
 
     Group #: 04 (2 digits)
 
-    CHENG, DERK SIMONE C. S04
-    CORTEZ, PAUL HAVEN C. S09
+    CHENG, DERK SIMONE C.  S04
+    CORTEZ, PAUL HAVEN C.  S09
     SORILLA, JOSHUA DEL F. S09
 
     PURPOSE OF THIS FILE: to show an example of a C header file that follows the coding guidelines/instructions.
