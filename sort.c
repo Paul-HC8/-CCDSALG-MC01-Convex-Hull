@@ -158,7 +158,7 @@ static int partition(Point *arr, int low, int high, Point anchor)
 /*
     a. Programmer(s): CHENG, DERK SIMONE C.
     b. Tester(s)    : 
-    c. Code Type    : 100% Human Generated
+    c. Code Type    : 100% Human Made
     d. Purpose      : FAST algorithm. Sort arr[low..high] by polar angle about the
                       anchor using Quick sort. The array is partitioned about a pivot,
                       then each side is sorted recursively.
