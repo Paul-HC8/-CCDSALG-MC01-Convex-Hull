@@ -71,16 +71,16 @@ int grahamScanFast(Point *pts, int n, Point *hull)
     PUSH(&S, pts[1]);
     for (i = 2; i < n; i++)
     {
-        while (S.top >= 1 &&
+        while (S.count >= 2 &&
                crossProduct(NEXT_TO_TOP(&S), TOP(&S), pts[i]) <= 0.0)
             POP(&S);
         PUSH(&S, pts[i]);
     }
 
     /* 4. The stack bottom-to-top is the hull in counterclockwise order. */
-    m = S.top + 1;
+    m = S.count;
     for (i = 0; i < m; i++)
-        hull[i] = S.items[i];
+        hull[i] = S.points[i];
 
     end       = clock();
     elapsedMs = (double)(end - start) * 1000.0 / CLOCKS_PER_SEC;
