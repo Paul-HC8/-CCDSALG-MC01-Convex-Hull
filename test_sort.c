@@ -17,7 +17,7 @@
 */
 #include <stdio.h>
 #include <stdlib.h>
-#include "sort.h"
+#include "sort.c"   /* include source so the sort functions are defined */
 
 /* Helper function to print an array of points.
 */
