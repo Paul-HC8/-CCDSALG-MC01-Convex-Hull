@@ -1,24 +1,34 @@
 /*
-    >> Encode your group number (2 digits) and last names, first names and sections of group members.  Encode the purpose of this file.
+    Group #: 04
 
-    Group #: 04 (2 digits)
+    CHENG, DERK SIMONE C.        S04
+    CORTEZ, PAUL HAVEN C.        S09
+    SORILLA, JOSHUA DEL F.       S__
 
-    CHENG, DERK SIMONE C. S04
-    CORTEZ, PAUL HAVEN C. S09
-    SORILLA, JOSHUA DEL F.
+    PURPOSE OF THIS FILE: header file for the sorting module. Group 4 is assigned
+    Bubble sort (the "slow" quadratic algorithm) and Quick sort (the "fast"
+    O(n log n) algorithm). Both sort an array of Point values by the polar angle
+    each point makes with a given anchor point (ties broken by distance from the
+    anchor). It also declares the geometric helper functions. Bodies live in sort.c.
 
-    PURPOSE OF THIS FILE: Header file for sorting algorithms and orientation math required for Graham's Scan.
-
-    >> GENERAL INSTRUCTIONS:
-    1. Adhere with good programming style and practice.
-    2. Do NOT use global variables!
+    GENERAL INSTRUCTIONS observed: no global variables, no goto, no return in a void function.
 */
 
-#include <stdio.h>
-#include <stdlib.h>
-#include "stack.h" // We need the Point struct defined in stack.h
+#ifndef SORT_H
+#define SORT_H
 
-// Helper Function Prototypes
+#include "stack.h"   /* for the Point type */
 
+/* Geometric helpers used both by the comparator and by Graham's Scan. */
+double crossProduct(Point o, Point a, Point b);  // signed area * 2 of triangle o-a-b
+double distSquared(Point a, Point b);            // squared Euclidean distance a..b
 
-// Sorting Algorithm Prototypes
+/* Ordering predicate for the polar-angle sort.
+   Returns -1 if a should come before b, 1 if after, 0 if equal in order. */
+int comparePoints(Point a, Point b, Point anchor);
+
+/* The two assigned sorting algorithms. Both sort arr[0..n-1] in place. */
+void bubbleSort(Point *arr, int n, Point anchor);              // SLOW: Bubble sort
+void quickSort(Point *arr, int low, int high, Point anchor);   // FAST: Quick sort
+
+#endif
