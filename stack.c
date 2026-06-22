@@ -46,8 +46,8 @@
 
 /*
     1. CREATE
-    a. Name of Programmer(s):  Cortez, Paul Haven C.
-    b. Name of Tester(s)    :  Sorilla, Joshua Del F.
+    a. Name of Programmer(s):  CORTEZ, PAUL HAVEN C.
+    b. Name of Tester(s)    :  SORILLA, JOSHUA DEL F.
     c. Code Type -- 100% Human Generated 
     d. Purpose: Creates an empty stack
     e. Return: void
@@ -60,8 +60,8 @@ void CREATE(Stack *S)
 
 /*  
     2. PUSH
-    a. Name of Programmer(s):  Cortez, Paul Haven C.
-    b. Name of Tester(s)    :  Sorilla, Joshua Del F.
+    a. Name of Programmer(s):  CORTEZ, PAUL HAVEN C.
+    b. Name of Tester(s)    :  SORILLA, JOSHUA DEL F.
     c. Code Type -- 100% Human Generated 
     d. Purpose: Checks if the stack is not full and pushes/inserts a point to the stack and updates the count of the stack.
     e. Return: void
@@ -80,8 +80,8 @@ void PUSH(Stack *S, Point elem)
 
 /*
     3. POP
-    a. Name of Programmer(s):  Cortez, Paul Haven C.
-    b. Name of Tester(s)    :  Sorilla, Joshua Del F.
+    a. Name of Programmer(s):  CORTEZ, PAUL HAVEN C.
+    b. Name of Tester(s)    :  SORILLA, JOSHUA DEL F.
     c. Code Type -- 100% Human Generated 
     d. Purpose: Checks if the stack is not empty and pops/deletes the top point from the stack and updates the count of the stack.  
     e. Return: elem the top in the stack
@@ -102,8 +102,8 @@ Point POP(Stack *S)
 
 /*
     4. TOP
-    a. Name of Programmer(s):  Cortez, Paul Haven C.
-    b. Name of Tester(s)    :  Sorilla, Joshua Del F.
+    a. Name of Programmer(s):  CORTEZ, PAUL HAVEN C.
+    b. Name of Tester(s)    :  SORILLA, JOSHUA DEL F.
     c. Code Type -- 100% Human Generated 
     d. Purpose: Gets the top element from the stack and returns it
     e. Return: elem (the top in the stack)
@@ -121,8 +121,8 @@ Point TOP(Stack *S)
 
 /*
     5. ISFULL
-    a. Name of Programmer(s):  Cortez, Paul Haven C.
-    b. Name of Tester(s)    :  Sorilla, Joshua Del F.
+    a. Name of Programmer(s):  CORTEZ, PAUL HAVEN C.
+    b. Name of Tester(s)    :  SORILLA, JOSHUA DEL F.
     c. Code Type -- 100% Human Generated 
     d. Purpose: Checks if the stack is full
     e. Return: int (1 if full, 0 otherwise)
@@ -139,8 +139,8 @@ int ISFULL(Stack *S)
 
 /*
     5. ISEMPTY
-    a. Name of Programmer(s):  Cortez, Paul Haven C.
-    b. Name of Tester(s)    :  Cheng, Derk Simone C.
+    a. Name of Programmer(s):  CORTEZ, PAUL HAVEN C.
+    b. Name of Tester(s)    :  CHENG, DERK SIMONE C.
     c. Code Type -- 100% Human Generated 
     d. Purpose: Checks if the stack is empty
     e. Return: int (1 if empty, 0 otherwise)
