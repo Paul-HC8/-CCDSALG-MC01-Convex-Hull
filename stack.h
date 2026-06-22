@@ -6,7 +6,7 @@
 
     CHENG, DERK SIMONE C. S04
     CORTEZ, PAUL HAVEN C. S09
-    SORILLA, JOSHUA DEL F.
+    SORILLA, JOSHUA DEL F. S09
 
     PURPOSE OF THIS FILE: to show an example of a C header file that follows the coding guidelines/instructions.
 
@@ -32,10 +32,6 @@
 #include <stdlib.h>
 
 // you may include other header files
-
-// example FUNCTION PROTOTYPE -- remove this and the next line in your own codes
-void Sample(int x);
-
 // 2 Max size of stack of elements 
 #define MAX_SIZE 32768
 
