@@ -4,7 +4,7 @@
 
     Group #: 04 (2 digits)
 
-    CHENG, DERK SIMONE 
+    CHENG, DERK SIMONE C. S04
     CORTEZ, PAUL HAVEN C. S09
     SORILLA, JOSHUA DEL F.
 
