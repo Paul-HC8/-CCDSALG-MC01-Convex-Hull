@@ -5,10 +5,6 @@
     CORTEZ, PAUL HAVEN C.        S09
     SORILLA, JOSHUA DEL F.       S__
 
-    PURPOSE OF THIS FILE: implementation of the sorting module. It contains the
-    geometric helper functions, the polar-angle comparator, and the two assigned
-    sorting algorithms for Group 4: Bubble sort (slow) and Quick sort (fast).
-
     GENERAL INSTRUCTIONS observed: no global variables, no goto, no return in a void function.
 */
 
@@ -181,3 +177,4 @@ void quickSort(Point *arr, int low, int high, Point anchor)
         quickSort(arr, split + 1, high, anchor);
     }
 }
+*/ 
