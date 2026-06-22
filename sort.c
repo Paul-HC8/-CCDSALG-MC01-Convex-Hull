@@ -12,7 +12,7 @@
 
 /*
     a. Programmer(s): CHENG, DERK SIMONE C.
-    b. Tester(s)    : 
+    b. Tester(s)    : SORILLA, JOSHUA DEL F.
     c. Code Type    : 100% Human Generated
     d. Purpose      : compute the cross product (b-o) x (a... actually (a-o) x (b-o)).
                       A positive value means o->a->b makes a counterclockwise turn,
@@ -28,7 +28,7 @@ double crossProduct(Point o, Point a, Point b)
 
 /*
     a. Programmer(s): CHENG, DERK SIMONE C.
-    b. Tester(s)    : 
+    b. Tester(s)    : SORILLA, JOSHUA DEL F.
     c. Code Type    : 100% Human Generated
     d. Purpose      : compute the squared Euclidean distance between two points.
                       Squared distance is enough for comparing distances, so no
@@ -49,7 +49,7 @@ double distSquared(Point a, Point b)
 
 /*
     a. Programmer(s): CHENG, DERK SIMONE C.
-    b. Tester(s)    : 
+    b. Tester(s)    : CORTEZ, PAUL HAVEN C.
     c. Code Type    : 100% Human Generated
     d. Purpose      : decide the relative order of two points a and b for the polar
                       sort about the anchor. A point with a smaller polar angle comes
@@ -81,7 +81,7 @@ int comparePoints(Point a, Point b, Point anchor)
 
 /*
     a. Programmer(s): CHENG, DERK SIMONE C.
-    b. Tester(s)    : 
+    b. Tester(s)    : CORTEZ, PAUL HAVEN C.
     c. Code Type    : 100% Human Generated
     d. Purpose      : SLOW algorithm. Sort arr[0..n-1] by polar angle about the anchor
                       using Bubble sort. Adjacent out-of-order points are repeatedly
@@ -108,7 +108,7 @@ void bubbleSort(Point *arr, int n, Point anchor)
 
 /*
     a. Programmer(s): CHENG, DERK SIMONE C.
-    b. Tester(s)    : 
+    b. Tester(s)    : CORTEZ, PAUL HAVEN C.
     c. Code Type    : 100% Human Generated
     d. Purpose      : partition helper for Quick sort using the Hoare scheme. The
                       middle element is chosen as the pivot (which keeps performance
@@ -157,7 +157,7 @@ static int partition(Point *arr, int low, int high, Point anchor)
 
 /*
     a. Programmer(s): CHENG, DERK SIMONE C.
-    b. Tester(s)    : 
+    b. Tester(s)    : SORILLA, JOSHUA DEL F.
     c. Code Type    : 100% Human Made
     d. Purpose      : FAST algorithm. Sort arr[low..high] by polar angle about the
                       anchor using Quick sort. The array is partitioned about a pivot,
