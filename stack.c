@@ -157,8 +157,8 @@ int ISEMPTY(Stack *S)
 
 /*
     7. NEXT_TO_TOP
-    a. Name of Programmer(s): Cortez, Paul Haven C.
-    b. Name of Tester(s)    : Cheng, Derk Simone C.
+    a. Name of Programmer(s): CORTEZ, PAUL HAVEN C.
+    b. Name of Tester(s)    : CHENG, DERK SIMONE C.
     c. Code Type -- 100% Human Generated 
     d. Purpose: Gets the element immediately below the top element of the stack.
     e. Return: elem (the second-to-top point in the stack)
