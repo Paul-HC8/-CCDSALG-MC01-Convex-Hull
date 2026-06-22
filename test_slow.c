@@ -4,7 +4,7 @@
 
         CHENG, DERK SIMONE C.  S04
         CORTEZ, PAUL HAVEN C.  S09
-        SORILLA, JOSHUA DEL F. S09
+        SORILLA, JOSHUA D.     S09
 
         PURPOSE OF THIS FILE: driver for the SLOW (Bubble-sort) version of Graham's Scan.
         It asks for the input and output filenames, reads the points, computes the convex

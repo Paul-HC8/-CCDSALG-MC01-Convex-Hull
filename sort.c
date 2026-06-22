@@ -3,7 +3,7 @@
 
     CHENG, DERK SIMONE C.  S04
     CORTEZ, PAUL HAVEN C.  S09
-    SORILLA, JOSHUA DEL F. S09
+    SORILLA, JOSHUA D.     S09
 
     GENERAL INSTRUCTIONS observed: no global variables, no goto, no return in a void function.
 */
@@ -28,7 +28,7 @@ double crossProduct(Point o, Point a, Point b)
 
 /*
     a. Programmer(s): CHENG, DERK SIMONE C.
-    b. Tester(s)    : SORILLA, JOSHUA DEL F.
+    b. Tester(s)    : SORILLA, JOSHUA D.
     c. Code Type    : 100% Human Generated
     d. Purpose      : compute the squared Euclidean distance between two points.
                       Squared distance is enough for comparing distances, so no
@@ -157,7 +157,7 @@ static int partition(Point *arr, int low, int high, Point anchor)
 
 /*
     a. Programmer(s): CHENG, DERK SIMONE C.
-    b. Tester(s)    : SORILLA, JOSHUA DEL F.
+    b. Tester(s)    : SORILLA, JOSHUA D.
     c. Code Type    : AI-generated draft
     d. Purpose      : FAST algorithm. Sort arr[low..high] by polar angle about the
                       anchor using Quick sort. The array is partitioned about a pivot,
