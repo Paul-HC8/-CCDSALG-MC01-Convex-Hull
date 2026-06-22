@@ -1,9 +1,9 @@
 /*
     Group #: 04
 
-    CHENG, DERK SIMONE C.        S04
-    CORTEZ, PAUL HAVEN C.        S09
-    SORILLA, JOSHUA DEL F.       S09
+    CHENG, DERK SIMONE C.  S04
+    CORTEZ, PAUL HAVEN C.  S09
+    SORILLA, JOSHUA DEL F. S09
 
     GENERAL INSTRUCTIONS observed: no global variables, no goto, no return in a void function.
 */
