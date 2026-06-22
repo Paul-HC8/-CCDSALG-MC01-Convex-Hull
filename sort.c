@@ -109,7 +109,7 @@ void bubbleSort(Point *arr, int n, Point anchor)
 /*
     a. Programmer(s): CHENG, DERK SIMONE C.
     b. Tester(s)    : CORTEZ, PAUL HAVEN C.
-    c. Code Type    : 100% Human Generated
+    c. Code Type    : AI-generated draft
     d. Purpose      : partition helper for Quick sort using the Hoare scheme. The
                       middle element is chosen as the pivot (which keeps performance
                       good even when the data is already sorted by angle). Elements
@@ -158,7 +158,7 @@ static int partition(Point *arr, int low, int high, Point anchor)
 /*
     a. Programmer(s): CHENG, DERK SIMONE C.
     b. Tester(s)    : SORILLA, JOSHUA DEL F.
-    c. Code Type    : 100% Human Made
+    c. Code Type    : AI-generated draft
     d. Purpose      : FAST algorithm. Sort arr[low..high] by polar angle about the
                       anchor using Quick sort. The array is partitioned about a pivot,
                       then each side is sorted recursively.
