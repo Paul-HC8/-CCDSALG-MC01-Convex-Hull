@@ -83,9 +83,9 @@ int main()
         printf("Stack is now empty again. All tests passed successfully!\n");
     }
 
-    /* NOTE TO TESTERS: 
-       If you want to test the exit(1) safety mechanism, uncomment the line below. 
-       The program should intentionally halt and print "Error: Can't pop an empty stack"
+    /*
+       If want test the exit(1), uncomment the line below. 
+       The program should stop and print "Error: Can't pop an empty stack"
        
        // POP(&S); 
     */
